@@ -16,7 +16,7 @@ RUN yum -y update; yum clean all; \
 VOLUME [ "/sys/fs/cgroup" ]
 CMD ["/usr/sbin/init"]
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN yum -y update && yum -y install \
 		ca-certificates \
 		curl \
 		wget \

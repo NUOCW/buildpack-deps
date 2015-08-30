@@ -7,4 +7,4 @@ RUN yum -y update && yum -y install \
 		mercurial \
 		openssh-client \
 		subversion \
-	&& rm -rf /var/lib/apt/lists/*
+	&& yum clean all
