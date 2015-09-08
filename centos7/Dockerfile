@@ -6,34 +6,33 @@ RUN yum -y update && yum -y install \
 		automake \
 		bzip2 \
 		file \
-		g++ \
+		gcc-c++ \
 		gcc \
-		imagemagick \
-		libbz2-dev \
-		libc6-dev \
-		libcurl4-openssl-dev \
-		libevent-dev \
-		libffi-dev \
-		libgeoip-dev \
-		libglib2.0-dev \
-		libjpeg-dev \
-		liblzma-dev \
-		libmagickcore-dev \
-		libmagickwand-dev \
-		libmysqlclient-dev \
-		libncurses-dev \
-		libpng-dev \
-		libpq-dev \
-		libreadline-dev \
-		libsqlite3-dev \
-		libssl-dev \
+		ImageMagick \
+		bzip2-devel \
+		glibc-devel \
+		libcurl-devel \
+		libevent-devel \
+		libffi-devel \
+		GeoIP-devel \
+		glib2-devel \
+		libjpeg-devel \
+		xz-devel \
+		ImageMagick-devel \
+		mariadb-devel \
+		ncurses-devel \
+		libpng-devel \
+		postgresql-devel \
+		readline-devel \
+		sqlite-devel \
+		openssl-devel \
 		libtool \
-		libwebp-dev \
-		libxml2-dev \
-		libxslt-dev \
-		libyaml-dev \
+		libwebp-devel \
+		libxml2-devel \
+		libxslt-devel \
+		libyaml-devel \
 		make \
 		patch \
-		xz-utils \
-		zlib1g-dev \
+		xz \
+		zlib-devel \
 	&& yum clean all
