@@ -5,6 +5,6 @@ RUN yum -y update && yum -y install \
 		bzr \
 		git \
 		mercurial \
-		openssh-client \
+		openssh-clients \
 		subversion \
 	&& yum clean all
